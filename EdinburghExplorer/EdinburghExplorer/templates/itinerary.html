@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Itinerary - Edinburgh Explorer{% endblock %}
+
+{% block content %}
+
+<!-- Main container for the 7-day itinerary -->
+<div class="itinerary-container">
+  <!-- Page heading -->
+  <h2>7-Day Edinburgh Itinerary</h2>
+  <p>
+    This plan gives you a full experience of Edinburgh’s culture, nature, and history over 7 days.
+    Each day includes locations with approximate start and end times.
+  </p>
+</div>
+
+<!-- Day 1: Old Town Wonders -->
+<div class="itinerary-container">
+  <h3>Day 1: Old Town Wonders (9:00 AM – 6:00 PM | 9 hours)</h3>
+  <p>
+    Start with Edinburgh Castle, walk the Royal Mile, and explore historic spots like St Giles’ Cathedral and Camera Obscura.
+  </p>
+
+  <!-- Embedded Google Maps for each location -->
+  <iframe src="https://www.google.com/maps?q=Edinburgh+Castle&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=The+Royal+Mile+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=St+Giles+Cathedral+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Camera+Obscura+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Day 2: Nature & Museums -->
+<div class="itinerary-container">
+  <h3>Day 2: Nature & Museums (10:00 AM – 5:00 PM | 7 hours)</h3>
+  <p>
+    Visit the National Museum of Scotland, enjoy the Royal Botanic Garden, and explore art at the National Gallery.
+  </p>
+  <iframe src="https://www.google.com/maps?q=National+Museum+of+Scotland+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Royal+Botanic+Garden+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Scottish+National+Gallery+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Day 3: Scenic Walks & Views -->
+<div class="itinerary-container">
+  <h3>Day 3: Scenic Walks & Views (8:00 AM – 4:00 PM | 8 hours)</h3>
+  <p>
+    Hike Arthur’s Seat, explore Calton Hill and Dean Village, and relax by the Water of Leith.
+  </p>
+  <iframe src="https://www.google.com/maps?q=Arthur's+Seat+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Calton+Hill+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Dean+Village+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Water+of+Leith+Walkway+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Day 4: Museums & Mystery -->
+<div class="itinerary-container">
+  <h3>Day 4: Museums & Mystery (10:00 AM – 6:00 PM | 8 hours)</h3>
+  <p>
+    Explore Surgeons’ Hall, childhood nostalgia at the Museum of Childhood, and whisky tasting at the Scotch Whisky Experience.
+  </p>
+  <iframe src="https://www.google.com/maps?q=Surgeons'+Hall+Museums+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Museum+of+Childhood+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Scotch+Whisky+Experience+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Day 5: Hidden Gems & History -->
+<div class="itinerary-container">
+  <h3>Day 5: Hidden Gems & History (11:00 AM – 5:00 PM | 6 hours)</h3>
+  <p>
+    Visit the Writers’ Museum, Greyfriars Kirkyard, and uncover the secrets of Mary King’s Close.
+  </p>
+  <iframe src="https://www.google.com/maps?q=Writers+Museum+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Greyfriars+Kirkyard+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Mary+King's+Close+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Day 6: Waterfront & Markets -->
+<div class="itinerary-container">
+  <h3>Day 6: Waterfront & Markets (12:00 PM – 7:00 PM | 7 hours)</h3>
+  <p>
+    Spend time in the Grassmarket, enjoy Leith Shore’s vibe, and tour the Royal Yacht Britannia.
+  </p>
+  <iframe src="https://www.google.com/maps?q=Grassmarket+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Leith+Shore+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Royal+Yacht+Britannia+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Day 7: Culture & Farewell Views -->
+<div class="itinerary-container">
+  <h3>Day 7: Culture & Farewell Views (10:00 AM – 8:00 PM | 10 hours)</h3>
+  <p>
+    See the Scottish Parliament, explore modern art, stroll through Princes Street Gardens, and watch the sunset from Calton Hill.
+  </p>
+  <iframe src="https://www.google.com/maps?q=Scottish+Parliament+Building+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=National+Gallery+of+Modern+Art+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Princes+Street+Gardens+Edinburgh&output=embed"></iframe>
+  <iframe src="https://www.google.com/maps?q=Calton+Hill+Edinburgh&output=embed"></iframe>
+</div>
+
+<!-- Call-to-action linking to other resources -->
+<div class="itinerary-container cta">
+  <p>
+    Ready to dive deeper into your trip? Check out our
+    <a href="/events">Events</a> and
+    <a href="/blogs">Blogs</a> pages to make the most of your time in Edinburgh.
+  </p>
+</div>
+
+{% endblock %}

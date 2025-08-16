@@ -1,0 +1,252 @@
+[
+        {
+            "name": "Edinburgh Castle",
+           "image": "castle.jpg",
+           "description": "A historic fortress offering panoramic views of the city.",
+           "category": "historical",
+           "opening_times": "9:30 AM - 6 PM",
+           "address": "Castlehill, Edinburgh EH1 2NG",
+           "rating": 4.8,
+           "reviews": ["Stunning views and fascinating history!", "A must-visit in Edinburgh."]
+       },
+       {
+           "name": "Arthur's Seat",
+           "image": "arthurseat.jpg",
+           "description": "An ancient volcano with beautiful hiking trails.",
+           "category": "nature",
+           "opening_times": "Open all day",
+           "address": "Queen's Dr, Edinburgh EH8 8HG",
+           "rating": 4.9,
+           "reviews": ["Perfect for sunrise hikes!", "Gorgeous views of the whole city."]
+       },
+       {
+           "name": "Royal Mile",
+           "image": "royalmile.jpg",
+           "description": "The famous historic street connecting the castle and Holyrood Palace.",
+           "category": "cultural",
+           "opening_times": "Open all day",
+           "address": "Royal Mile, Edinburgh EH1",
+           "rating": 4.6,
+           "reviews": ["Lively and full of charm!", "Great for souvenirs and street performances."]
+       },
+       {
+           "name": "Holyrood Palace",
+           "image": "holyrood_palace.jpg",
+           "description": "The Queen’s official residence in Scotland.",
+           "category": "royal",
+           "opening_times": "9:30 AM - 4:30 PM",
+           "address": "Canongate, Edinburgh EH8 8DX",
+           "rating": 4.7,
+           "reviews": ["Elegant and historic.", "Loved the royal gardens!"]
+       },
+       {
+           "name": "Calton Hill",
+           "image": "caltonhill.jpg",
+           "description": "Offers spectacular city views and monuments.",
+           "category": "nature",
+           "opening_times": "Open all day",
+           "address": "Calton Hill, Edinburgh EH7 5AA",
+           "rating": 4.8,
+           "reviews": ["Best sunset spot!", "Peaceful and beautiful."]
+       },
+       {
+           "name": "National Museum of Scotland",
+           "image": "national_museum.jpg",
+           "description": "Explore Scotland’s history, culture, and science.",
+           "category": "museum",
+           "opening_times": "10 AM - 5 PM",
+           "address": "Chambers St, Edinburgh EH1 1JF",
+           "rating": 4.9,
+           "reviews": ["Interactive and fun!", "Great for kids and adults alike."]
+       },
+       {
+           "name": "Scottish National Gallery",
+           "image": "national_gallery.jpg",
+           "description": "Home to classic and modern art masterpieces.",
+           "category": "art",
+           "opening_times": "10 AM - 5 PM",
+           "address": "The Mound, Edinburgh EH2 2EL",
+           "rating": 4.7,
+           "reviews": ["Amazing collection!", "Free and inspiring."]
+       },
+       {
+           "name": "Princes Street Gardens",
+           "image": "princes_street_gardens.jpg",
+           "description": "A beautiful public park in the city centre.",
+           "category": "nature",
+           "opening_times": "7 AM - 10 PM",
+           "address": "Princes St, Edinburgh EH2 2HG",
+           "rating": 4.8,
+           "reviews": ["Peaceful oasis in the city.", "Lovely for a picnic."]
+       },
+       {
+           "name": "The Scotch Whisky Experience",
+           "image": "whisky_experience.jpg",
+           "description": "Discover Scotland’s famous whisky heritage.",
+           "category": "tasting",
+           "opening_times": "10 AM - 6 PM",
+           "address": "354 Castlehill, Edinburgh EH1 2NE",
+           "rating": 4.6,
+           "reviews": ["Loved the tasting!", "Educational and fun."]
+       },
+       {
+           "name": "Camera Obscura",
+           "image": "camera_obscura.jpg",
+           "description": "An interactive attraction with optical illusions.",
+           "category": "fun",
+           "opening_times": "9 AM - 8 PM",
+           "address": "Castlehill, Edinburgh EH1 2ND",
+           "rating": 4.8,
+           "reviews": ["So much fun!", "Great for all ages."]
+       },
+       {
+           "name": "Greyfriars Kirkyard",
+           "image": "greyfriars_kirkyard.jpg",
+           "description": "Historic cemetery with fascinating stories.",
+           "category": "historical",
+           "opening_times": "Open all day",
+           "address": "Candlemaker Row, Edinburgh EH1 2QQ",
+           "rating": 4.6,
+           "reviews": ["Hauntingly beautiful.", "Don’t miss the Harry Potter link!"]
+       },
+       {
+           "name": "Edinburgh Zoo",
+           "image": "zoo.jpg",
+           "description": "Home to pandas and exotic animals.",
+           "category": "family",
+           "opening_times": "10 AM - 6 PM",
+           "address": "134 Corstorphine Rd, Edinburgh EH12 6TS",
+           "rating": 4.5,
+           "reviews": ["Kids loved it!", "Very well maintained."]
+       },
+       {
+           "name": "Surgeons’ Hall Museums",
+           "image": "surgeons_hall.jpg",
+           "description": "A unique museum on medical history.",
+           "category": "museum",
+           "opening_times": "10 AM - 5 PM",
+           "address": "Nicolson St, Edinburgh EH8 9DW",
+           "rating": 4.7,
+           "reviews": ["Fascinating exhibits!", "Unusual but interesting."]
+       },
+       {
+           "name": "Royal Botanic Garden",
+           "image": "botanic_garden.jpg",
+           "description": "A peaceful place with diverse plants and flowers.",
+           "category": "nature",
+           "opening_times": "10 AM - 6 PM",
+           "address": "Arboretum Pl, Edinburgh EH3 5NZ",
+           "rating": 4.9,
+           "reviews": ["So beautiful!", "Relaxing and vibrant."]
+       },
+       {
+           "name": "The Real Mary King's Close",
+           "image": "mary_kings_close.jpg",
+           "description": "Discover Edinburgh’s hidden underground streets.",
+           "category": "historical",
+           "opening_times": "10 AM - 9 PM",
+           "address": "High St, Edinburgh EH1 1PG",
+           "rating": 4.7,
+           "reviews": ["Creepy and cool!", "Great guides and storytelling."]
+       },
+       {
+           "name": "Scottish Parliament Building",
+           "image": "parliament.jpg",
+           "description": "Modern architecture housing Scotland’s government.",
+           "category": "political",
+           "opening_times": "10 AM - 5 PM",
+           "address": "Horse Wynd, Edinburgh EH99 1SP",
+           "rating": 4.5,
+           "reviews": ["Interesting architecture!", "Educational visit."]
+       },
+       {
+           "name": "The Meadows",
+           "image": "meadows.jpg",
+           "description": "A vast green space for picnics, sports, and relaxing.",
+           "category": "nature",
+           "opening_times": "Open all day",
+           "address": "Melville Dr, Edinburgh EH9 9EX",
+           "rating": 4.7,
+           "reviews": ["Great for a jog!", "Very peaceful."]
+       },
+       {
+           "name": "Dean Village",
+           "image": "dean_village.jpg",
+           "description": "A tranquil historic village by the Water of Leith.",
+           "category": "cultural",
+           "opening_times": "Open all day",
+           "address": "Dean Path, Edinburgh EH4 3AY",
+           "rating": 4.8,
+           "reviews": ["Feels like a fairytale!", "Very photogenic."]
+       },
+       {
+           "name": "Dynamic Earth",
+           "image": "dynamic_earth.jpg",
+           "description": "Science museum exploring Earth's history.",
+           "category": "museum",
+           "opening_times": "10 AM - 5 PM",
+           "address": "Holyrood Rd, Edinburgh EH8 8AS",
+           "rating": 4.6,
+           "reviews": ["Amazing for kids!", "Really informative."]
+       },
+       {
+           "name": "Portobello Beach",
+           "image": "portobello_beach.jpg",
+           "description": "Sandy beach ideal for families and strolls.",
+           "category": "nature",
+           "opening_times": "Open all day",
+           "address": "Portobello, Edinburgh EH15 2BP",
+           "rating": 4.5,
+           "reviews": ["Great summer spot!", "Clean and lovely promenade."]
+       },
+       {
+           "name": "Craigmillar Castle",
+           "image": "craigmillar_castle.jpg",
+           "description": "Ruined medieval fortress with rich history.",
+           "category": "historical",
+           "opening_times": "10 AM - 4 PM",
+           "address": "Craigmillar Castle Rd, Edinburgh EH16 4SY",
+           "rating": 4.7,
+           "reviews": ["Quiet and majestic.", "Like stepping back in time."]
+       },
+       {
+           "name": "Cramond Island",
+           "image": "cramond_island.jpg",
+           "description": "A tidal island accessible at low tide.",
+           "category": "adventure",
+           "opening_times": "Tidal access only",
+           "address": "Cramond, Edinburgh EH4 6NU",
+           "rating": 4.6,
+           "reviews": ["Adventure walk!", "Check tides before visiting."]
+       },
+       {
+           "name": "St Giles’ Cathedral",
+           "image": "st_giles.jpg",
+           "description": "Gothic cathedral with stained glass and crown spire.",
+           "category": "religious",
+           "opening_times": "9 AM - 5 PM",
+           "address": "High St, Edinburgh EH1 1RE",
+           "rating": 4.8,
+           "reviews": ["Breathtaking inside.", "Serene and spiritual."]
+       },
+       {
+           "name": "Royal Yacht Britannia",
+           "image": "royal_yacht.jpg",
+           "description": "Explore the Queen’s former royal yacht.",
+           "category": "royal",
+           "opening_times": "10 AM - 5 PM",
+           "address": "Ocean Dr, Leith, Edinburgh EH6 6JJ",
+           "rating": 4.8,
+           "reviews": ["Elegant and historic.", "Wonderful audio tour."]
+       },
+       {
+           "name": "Blackford Hill",
+           "image": "blackford_hill.jpg",
+           "description": "Great for nature walks and panoramic city views.",
+           "category": "nature",
+           "opening_times": "Open all day",
+           "address": "Blackford Hill, Edinburgh EH9",
+           "rating": 4.7,
+           "reviews": ["Great for hiking.", "Beautiful sunset spot."]
+       }
+   ]

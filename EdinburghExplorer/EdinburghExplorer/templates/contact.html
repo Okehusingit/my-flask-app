@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us - Edinburgh Explorer{% endblock %}
+
+{% block content %}
+<section class="contact-container">
+  <h2>Contact Us</h2>
+  <p>
+    For any inquiries, questions, or feedback, please leave your message below.
+    We’re happy to hear from you and will get back to you as soon as possible.
+    Fields marked with <span style="color:red">*</span> are required.
+  </p>
+
+  <!-- Contact form -->
+  <form class="contact-form needs-validation" action="{{ url_for('contact') }}" method="POST" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name <span style="color:red">*</span></label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Your name"
+             value="{{ request.form.get('name', '') }}" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email <span style="color:red">*</span></label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com"
+             value="{{ request.form.get('email', '') }}" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Message <span style="color:red">*</span></label>
+      <textarea id="message" name="message" class="form-control" placeholder="Write your message here..." required>{{ request.form.get('message', '') }}</textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+
+  <!-- Static contact details -->
+  <div class="contact-details mt-4">
+    <p><strong>Address:</strong> 123 Princes Street, Edinburgh, EH2 4AD</p>
+    <p><strong>Phone:</strong> +44 131 555 1234</p>
+    <p><strong>Email:</strong> support@edinburghexplorer.com</p>
+  </div>
+</section>
+{% endblock %}

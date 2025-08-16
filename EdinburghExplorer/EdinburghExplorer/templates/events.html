@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Main container for upcoming events -->
+<section class="events-container">
+  <h2>Upcoming Events in Edinburgh</h2>
+
+  <!-- Search & Filter Controls -->
+  <div style="margin-bottom: 20px;">
+    <input type="text" id="eventSearch" placeholder="Search events..." style="padding:8px; width:100%; max-width:300px; margin-right:10px;">
+    <select id="categoryFilter" style="padding:8px;">
+      <option value="">All Categories</option>
+      <option value="music">Music</option>
+      <option value="festival">Festival</option>
+      <option value="culture">Culture</option>
+      <option value="literature">Literature</option>
+    </select>
+  </div>
+
+  <!-- Grid layout for event cards -->
+  <div class="events-grid">
+
+    <!-- Individual event card -->
+    <div class="event-card" data-category="festival" tabindex="0">
+      <img src="{{ url_for('static', filename='images/edinburgh_festival_fringe.jpg') }}"
+           alt="Edinburgh Festival Fringe">
+      <div class="event-text">
+        <strong>Edinburgh Festival Fringe</strong>
+        <p>Aug 2025: Comedy, theatre, music and art!</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="culture" tabindex="0">
+      <img src="{{ url_for('static', filename='images/royal_military_tattoo.jpg') }}"
+           alt="Royal Edinburgh Military Tattoo">
+      <div class="event-text">
+        <strong>Royal Edinburgh Military Tattoo</strong>
+        <p>Military bands perform at the Castle.</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="festival" tabindex="0">
+      <img src="{{ url_for('static', filename='images/hogmanay_street_party.jpg') }}"
+           alt="Hogmanay Street Party">
+      <div class="event-text">
+        <strong>Hogmanay Street Party</strong>
+        <p>New Year celebration like no other.</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="literature" tabindex="0">
+      <img src="{{ url_for('static', filename='images/book_festival.jpg') }}"
+           alt="Edinburgh International Book Festival">
+      <div class="event-text">
+        <strong>Edinburgh International Book Festival</strong>
+        <p>World-class authors, readings, and workshops.</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="culture" tabindex="0">
+      <img src="{{ url_for('static', filename='images/storytelling_festival.jpg') }}"
+           alt="Scottish International Storytelling Festival">
+      <div class="event-text">
+        <strong>Scottish International Storytelling Festival</strong>
+        <p>Scotland’s legends and tales brought to life.</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="music" tabindex="0">
+      <img src="{{ url_for('static', filename='images/jazz_blues_festival.jpg') }}"
+           alt="Edinburgh Jazz & Blues Festival">
+      <div class="event-text">
+        <strong>Edinburgh Jazz & Blues Festival</strong>
+        <p>Smooth jazz and blues across the city.</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="festival" tabindex="0">
+      <img src="{{ url_for('static', filename='images/mela_festival.jpg') }}"
+           alt="Edinburgh Mela Festival">
+      <div class="event-text">
+        <strong>Edinburgh Mela Festival</strong>
+        <p>A vibrant celebration of multicultural music and arts.</p>
+      </div>
+    </div>
+
+    <div class="event-card" data-category="festival" tabindex="0">
+      <img src="{{ url_for('static', filename='images/film_festival.jpg') }}"
+           alt="Edinburgh International Film Festival">
+      <div class="event-text">
+        <strong>Edinburgh International Film Festival</strong>
+        <p>Premieres and world cinema highlights.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Note for visitors -->
+  <p class="events-note">More exciting events will be updated soon. Stay tuned!</p>
+</section>
+
+<!-- Search & Filter Script -->
+<script>
+function filterEvents() {
+  const searchValue = document.getElementById('eventSearch').value.toLowerCase();
+  const selectedCategory = document.getElementById('categoryFilter').value;
+  const cards = document.querySelectorAll('.event-card');
+
+  cards.forEach(card => {
+    const text = card.innerText.toLowerCase();
+    const category = card.getAttribute('data-category');
+    const matchesSearch = text.includes(searchValue);
+    const matchesCategory = !selectedCategory || category === selectedCategory;
+
+    card.style.display = (matchesSearch && matchesCategory) ? '' : 'none';
+  });
+}
+
+document.getElementById('eventSearch').addEventListener('input', filterEvents);
+document.getElementById('categoryFilter').addEventListener('change', filterEvents);
+</script>
+
+{% endblock %}

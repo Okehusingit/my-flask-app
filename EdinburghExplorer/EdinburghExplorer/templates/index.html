@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}About - Edinburgh Explorer{% endblock %}
+
+{% block content %}
+<!-- Main content area for the About page -->
+<section class="about-container" role="main" aria-label="Welcome to Edinburgh Explorer">
+
+  <!-- Page Heading -->
+  <h2>Welcome to Edinburgh Explorer</h2>
+
+  <!-- Hero Image Section -->
+  <section class="hero-image" aria-label="Beautiful Edinburgh city view">
+    <!-- Main hero image showcasing the city -->
+    <img src="{{ url_for('static', filename='images/edinburgh.jpg') }}" alt="Panoramic view of Edinburgh cityscape" />
+  </section>
+
+  <!-- Introduction Section -->
+  <h3>Discover Edinburgh’s Best Attractions</h3>
+  <p>
+    Dive into the rich history, stunning views, and vibrant culture of Edinburgh with our carefully curated guides and tips. Whether it’s your first visit or a return trip, we bring the best of the city right to your fingertips.
+  </p>
+
+  <!-- Landmark Highlights -->
+  <h3>Explore Iconic Landmarks</h3>
+  <p>
+    From the majestic Edinburgh Castle to the scenic Arthur’s Seat, find detailed information and insider tips to make your visit unforgettable.
+  </p>
+
+  <!-- Cultural Experience -->
+  <h3>Experience Cultural Delights</h3>
+  <p>
+    Discover Edinburgh’s festivals, theatres, and local events that celebrate the heart and soul of this vibrant city.
+  </p>
+
+  <!-- Call-to-Action -->
+  <h3>Your Adventure Starts Here</h3>
+  <p>
+    With easy navigation and up-to-date information, Edinburgh Explorer is your trusted companion to uncover hidden gems and popular spots alike.
+  </p>
+
+  <!-- Button linking to attractions page -->
+  <a href="/attractions" class="contact-button" aria-label="Explore Attractions in Edinburgh">
+    Explore Attractions
+  </a>
+
+</section>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- About Us page code starts here -->
+
+<!-- Main container for about us section -->
+<section class="about-container">
+
+  <!-- Heading for the page -->
+  <h2>About Us</h2>
+
+  <!-- Sub-section: Story of the website/platform -->
+  <h3>Our Story</h3>
+  <p>
+    Founded with a passion for Edinburgh’s vibrant culture, our platform was created to bridge the gap between event organizers and those eager to explore the city’s diverse happenings. Whether you’re a longtime local or a curious visitor, we aim to bring the magic of Edinburgh’s festivals, music, theatre, and community events right to your fingertips.
+  </p>
+
+  <!-- Sub-section: Mission of the website -->
+  <h3>Our Mission</h3>
+  <p>
+    We strive to connect locals and visitors alike with the vibrant cultural heartbeat of Edinburgh. Through our curated event listings, we bring you closer to the arts, music, theatre, and community celebrations that make this city truly special.
+  </p>
+
+  <!-- Sub-section: What is offered to the users -->
+  <h3>What We Offer</h3>
+  <p>
+    From the iconic festivals to hidden gems, we offer up-to-date and carefully curated event information to help you discover something new every time. Our easy-to-navigate site ensures you won’t miss out on the best that Edinburgh has to offer.
+  </p>
+
+  <!-- Sub-section: Focus on community building -->
+  <h3>Community Focus</h3>
+  <p>
+    We believe in supporting local artists, venues, and organizers by giving them a platform to showcase their work. Our goal is to foster a sense of community and cultural exchange that enriches the experience for everyone.
+  </p>
+
+  <!-- Sub-section: Vision of the platform -->
+  <h3>Our Vision</h3>
+  <p>
+    To become the trusted source for discovering the best that Edinburgh has to offer, inspiring everyone to explore, experience, and enjoy the richness of the city’s cultural life.
+  </p>
+
+  <!-- Sub-section: Why users should choose this site -->
+  <h3>Why Choose Us?</h3>
+  <p>
+    Transparency, passion, and dedication to quality are at the core of everything we do. We continuously update our listings, verify event details, and listen to our users to provide an experience that’s both reliable and delightful.
+  </p>
+
+  <!-- Button to navigate to contact page -->
+  <a href="{{ url_for('contact') }}" class="contact-button" aria-label="Go to Contact Us page">
+    Contact Us
+  </a>
+</section>
+<!-- About Us page code ends here -->
+
+{% endblock %}

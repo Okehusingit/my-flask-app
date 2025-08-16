@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}Blogs - Edinburgh Explorer{% endblock %}
+
+{% block content %}
+<!-- Section for displaying all blog posts -->
+<section class="blogs-section">
+  <div class="container">
+
+    <!-- Page heading -->
+    <h2>Latest Blogs</h2>
+
+    <!-- Grid layout for blog cards -->
+    <div class="blogs-grid">
+
+      <!-- Blog 1: Old Town Edinburgh -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog1.jpg') }}" alt="Old Town Edinburgh">
+        <div class="card-body">
+          <h3>Exploring Edinburgh’s Old Town</h3>
+          <p>
+            Nestled in the heart of Scotland’s capital, Edinburgh’s Old Town is a living museum filled with history and charm. Wander the cobbled streets, and you’ll find centuries-old architecture standing side by side with modern cafes and quirky shops. From the iconic Royal Mile to hidden alleyways like Mary King’s Close, every corner has a story to tell. Don’t miss the majestic Edinburgh Castle perched atop Castle Rock, offering breathtaking views of the city. Whether you’re a history buff or simply love exploring atmospheric neighborhoods, Old Town captures the spirit of Edinburgh like nowhere else.
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog 2: Hiking Arthur's Seat -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog2.jpg') }}" alt="Arthur's Seat View">
+        <div class="card-body">
+          <h3>Hiking Arthur’s Seat: A Natural Escape</h3>
+          <p>
+            Arthur’s Seat is Edinburgh’s highest point, offering panoramic views of the city and beyond. This ancient volcano turned popular hiking spot is accessible to all fitness levels. The hike is not only rewarding but also rich in nature, with wildlife and beautiful flora along the trails. Pack a picnic and enjoy a peaceful day away from the bustle, or visit at sunrise for a truly magical experience. Remember to wear comfortable shoes and bring water for your adventure!
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog 3: Edinburgh Castle -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog3.jpg') }}" alt="Edinburgh Castle at Night">
+        <div class="card-body">
+          <h3>Edinburgh Castle: Scotland’s Iconic Fortress</h3>
+          <p>
+            Dominating the city skyline, Edinburgh Castle is a must-visit for anyone exploring the capital. Steeped in history, this fortress has witnessed centuries of battles, royal ceremonies, and national celebrations. Inside, you can discover the Crown Jewels of Scotland, the Stone of Destiny, and fascinating museums. The views from the castle ramparts are spectacular, especially at sunset when the city is bathed in golden light. Plan your visit early to avoid crowds and join a guided tour for deeper insights.
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog 4: Festivals in Edinburgh -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog4.jpg') }}" alt="Royal Mile Festival">
+        <div class="card-body">
+          <h3>The Vibrant Festivals of Edinburgh</h3>
+          <p>
+            Edinburgh is world-famous for its festivals, which light up the city year-round. The Edinburgh Fringe Festival, the largest arts festival in the world, transforms the streets with performances ranging from comedy to theatre. The Royal Edinburgh Military Tattoo showcases incredible displays of music and precision drills against the castle backdrop. Foodies will love the Edinburgh Food Festival, while Hogmanay celebrations bring in the New Year with fireworks and music. Time your visit to experience the city’s cultural heartbeat!
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog 5: Scottish Cuisine -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog5.jpg') }}" alt="Scottish Cuisine">
+        <div class="card-body">
+          <h3>Savoring Scottish Cuisine in Edinburgh</h3>
+          <p>
+            No trip to Edinburgh is complete without sampling traditional Scottish dishes. From hearty haggis and neeps to fresh seafood, the city offers a delightful culinary journey. Try a classic Scottish breakfast or enjoy afternoon tea with scones and jam. Edinburgh’s restaurants range from cozy pubs to Michelin-starred venues, catering to all tastes and budgets. Don’t forget to wash it down with a dram of Scotch whisky for the full experience!
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog 6: Hidden Gems -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog6.jpg') }}" alt="Hidden Edinburgh Gems">
+        <div class="card-body">
+          <h3>Hidden Gems: Secret Spots in Edinburgh</h3>
+          <p>
+            Beyond the popular landmarks, Edinburgh hides many secrets waiting to be discovered. Explore quiet gardens like the Royal Botanic Gardens, tucked-away cafes with cozy atmospheres, and independent bookstores filled with local stories. Venture into Dean Village for a peaceful stroll along the Water of Leith or visit the Surgeons’ Hall Museums for a fascinating look at medical history. These off-the-beaten-path spots add a unique flavor to your Edinburgh visit.
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog 7: Coming soon -->
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blog7.jpg') }}" alt="Coming Soon Blog">
+        <div class="card-body">
+          <h3>More Exciting Blogs Coming Soon!</h3>
+          <p>
+            We’re always exploring new corners of Edinburgh to bring you fresh insights and stories. Stay tuned for upcoming blogs on hidden trails, local art scenes, seasonal events, and insider tips to make your visit unforgettable. Keep checking back for more inspiration and discover Edinburgh like never before!
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}
