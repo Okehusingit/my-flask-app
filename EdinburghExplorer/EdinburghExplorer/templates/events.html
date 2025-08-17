@@ -23,8 +23,7 @@
 
     <!-- Individual event card -->
     <div class="event-card" data-category="festival" tabindex="0">
-      <img src="{{ url_for('static', filename='images/edinburgh_festival_fringe.jpg') }}"
-           alt="Edinburgh Festival Fringe">
+      <img src="{{ url_for('static', filename='images/edinburgh_festival_fringe.jpg') }}" alt="Edinburgh Festival Fringe">
       <div class="event-text">
         <strong>Edinburgh Festival Fringe</strong>
         <p>Aug 2025: Comedy, theatre, music and art!</p>
@@ -32,8 +31,7 @@
     </div>
 
     <div class="event-card" data-category="culture" tabindex="0">
-      <img src="{{ url_for('static', filename='images/royal_military_tattoo.jpg') }}"
-           alt="Royal Edinburgh Military Tattoo">
+      <img src="{{ url_for('static', filename='images/royal_military_tattoo.jpg') }}" alt="Royal Edinburgh Military Tattoo">
       <div class="event-text">
         <strong>Royal Edinburgh Military Tattoo</strong>
         <p>Military bands perform at the Castle.</p>
@@ -41,8 +39,7 @@
     </div>
 
     <div class="event-card" data-category="festival" tabindex="0">
-      <img src="{{ url_for('static', filename='images/hogmanay_street_party.jpg') }}"
-           alt="Hogmanay Street Party">
+      <img src="{{ url_for('static', filename='images/hogmanay_street_party.jpg') }}" alt="Hogmanay Street Party">
       <div class="event-text">
         <strong>Hogmanay Street Party</strong>
         <p>New Year celebration like no other.</p>
@@ -50,8 +47,7 @@
     </div>
 
     <div class="event-card" data-category="literature" tabindex="0">
-      <img src="{{ url_for('static', filename='images/book_festival.jpg') }}"
-           alt="Edinburgh International Book Festival">
+      <img src="{{ url_for('static', filename='images/book_festival.jpg') }}" alt="Edinburgh International Book Festival">
       <div class="event-text">
         <strong>Edinburgh International Book Festival</strong>
         <p>World-class authors, readings, and workshops.</p>
@@ -59,8 +55,7 @@
     </div>
 
     <div class="event-card" data-category="culture" tabindex="0">
-      <img src="{{ url_for('static', filename='images/storytelling_festival.jpg') }}"
-           alt="Scottish International Storytelling Festival">
+      <img src="{{ url_for('static', filename='images/storytelling_festival.jpg') }}" alt="Scottish International Storytelling Festival">
       <div class="event-text">
         <strong>Scottish International Storytelling Festival</strong>
         <p>Scotland’s legends and tales brought to life.</p>
@@ -68,8 +63,7 @@
     </div>
 
     <div class="event-card" data-category="music" tabindex="0">
-      <img src="{{ url_for('static', filename='images/jazz_blues_festival.jpg') }}"
-           alt="Edinburgh Jazz & Blues Festival">
+      <img src="{{ url_for('static', filename='images/jazz_blues_festival.jpg') }}" alt="Edinburgh Jazz & Blues Festival">
       <div class="event-text">
         <strong>Edinburgh Jazz & Blues Festival</strong>
         <p>Smooth jazz and blues across the city.</p>
@@ -77,8 +71,7 @@
     </div>
 
     <div class="event-card" data-category="festival" tabindex="0">
-      <img src="{{ url_for('static', filename='images/mela_festival.jpg') }}"
-           alt="Edinburgh Mela Festival">
+      <img src="{{ url_for('static', filename='images/mela_festival.jpg') }}" alt="Edinburgh Mela Festival">
       <div class="event-text">
         <strong>Edinburgh Mela Festival</strong>
         <p>A vibrant celebration of multicultural music and arts.</p>
@@ -86,8 +79,7 @@
     </div>
 
     <div class="event-card" data-category="festival" tabindex="0">
-      <img src="{{ url_for('static', filename='images/film_festival.jpg') }}"
-           alt="Edinburgh International Film Festival">
+      <img src="{{ url_for('static', filename='images/film_festival.jpg') }}" alt="Edinburgh International Film Festival">
       <div class="event-text">
         <strong>Edinburgh International Film Festival</strong>
         <p>Premieres and world cinema highlights.</p>
@@ -102,6 +94,9 @@
 
 <!-- Search & Filter Script -->
 <script>
+/* Search & filter functionality inspired by W3Schools tutorials on HTML, JavaScript, and DOM manipulation
+   Source: https://www.w3schools.com/howto/howto_js_filter_lists.asp */
+
 function filterEvents() {
   const searchValue = document.getElementById('eventSearch').value.toLowerCase();
   const selectedCategory = document.getElementById('categoryFilter').value;
